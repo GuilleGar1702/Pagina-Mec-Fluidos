@@ -1,0 +1,88 @@
+*{
+    margin: 10;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: century gothic;
+}
+
+header{
+    color: white;
+    font-family: century;
+    font-size: 30px;
+    padding: 5%;
+    width: 100%;
+    aspect-ratio: 16/7;
+    align-items: center;
+    justify-content: center;
+    background: #0D4D98;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(212, 84%, 32%, 0.756), hsla(218, 57%, 38%, 0.362)), url(../img/Fondo.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(212, 84%, 32%, 0.756), hsla(218, 57%, 38%, 0.362)), url(../img/Fondo.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagenes{
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.contenedor{
+    padding: 5%;
+    width: 80%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.footer-contenedor{
+    color: black;
+    font-family: century;
+    font-size: 15px;
+    padding: 5%;
+    width: 100%;
+}
+
+.Wave2{
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+}
+
+.Radio{
+    margin: 50px;
+    float: right;
+    background-color: #0D4D98;
+    border-radius: 20px;
+    border-color: black;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.selector{
+    font-style: bold;
+    border-radius: 5px;
+    color: black;
+}
